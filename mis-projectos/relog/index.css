@@ -1,0 +1,85 @@
+:root {
+    --c1: #dd7e6b;
+    --c2: #ea9999;
+    --c3: #f9cb9c;
+    --c9: #8e7cc3;
+    --c4: #ffe599;
+    --c5: #b6d7a8;
+    --c8: #9fc5e8;
+    --c6: #a2c4c9;
+    --c7: #a4c2f4;
+    --c10: #d5a6bd;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relog {
+    transform: rotate(90deg);
+    background-color: var(--c2);
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.relog .segundo {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: ;
+    width: 300px;
+    height: 300px;
+    animation-name: giros ;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.relog .minuto {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: ;
+    width: 300px;
+    height: 300px;
+    animation-name: giros ;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.relog .hora {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: ;
+    width: 300px;
+    height: 300px;
+    animation-name: giros ;
+    animation-duration: 86400s;
+    animation-delay:  ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes giros {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.linea {
+    background-color: white;
+    width: 150px;
+    height: 3px;
+}

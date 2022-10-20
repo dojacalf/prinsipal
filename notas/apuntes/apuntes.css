@@ -1,0 +1,270 @@
+{
+  /*color*/
+  color:colorname;/*cambia el color del texto */
+/*background*/
+background-color: colorname;/* le da un color al fondo*/
+/* y mas ya agregare */
+/*border*/
+  border-style: stylename ;/* el estilo del borde solid,etc */
+  /* y mas qy agregare */
+/*margin*/
+margin: n°px; /*  espacio alrededor afuera del border(top,right,buttom,left) */
+              /* auto para margenes iwales a los costados /*
+/*cuatro mas*/
+/* panding */
+padding: n°px;/* estacio dentro del border(top,right,buttom,left) */
+/*cuatro mas*/
+/*width,height*/
+height: n°px,%; /* el ancho */
+width: n°px,%; /* el largo */
+max-width:; /*el largo maximo*/
+max-height: /*el ancho maximo */
+/*outline */
+outline: ;/*un borde encima del borde*/
+outline-offset: ;/*espacio entre el borde y el outlain*/
+/*varios mas*/
+/* text*/
+  text-decoration: ;/*subrayado o + */
+/*nc varios*/
+/* font */
+font-family: ;/*el tipo de letra*/
+/*varios mas */
+/* style-list */
+list-style: ;/*(type,position,imagen)*/
+list-style-type: ;/* estilo de listado */
+list-style-position: ; /* como esta aliniado es texto */
+list-style-image: ;/* imagen de listado*/
+/* layout */
+display: ; /* none los desaparece */
+           /* inline los reduce */
+           /* block los buenve espacioso */
+           /* inline-block igual que inline pero configurs el tamaño*/
+visibility:  ;/* hiden para oucltar */
+/* position */
+position: ; /* fixed lo ancla en la pantalla */
+            /* sticky lo ase pegajoso */
+            /* absolute no mueve a otros elementos */
+            /* relative  noentiendo*/
+            /* static noentiendo*/
+/*overflow */
+overflow:; /* hiden borra lo que sobre ,scroll  pone un scroll xd ,
+           visible es lo normamal auto si es nesesario */
+overflow-x: ;
+overflow-y: ;
+/* float */
+float:; /* left,right lo hace flotar entre texto */
+/* text-aling */
+  text-align:;/* aliniacion del texto */
+/* lrtb*/
+left:;right:;top:;bottom:;/*enpiesa desde aí*/
+/*otros*/
+  opacity: 0 a 1;/*le da opcidad al elemento*/
+  line-height: ;/* iwal al height para centrar */
+  content: ; /*contenudo */
+  resize: ;/*la cosa en la esquina del text tarea*/
+
+  !important /*para poner uno inportnte*/
+  calc()/* para calcular unidades*/
+  max(,)/*para poner el maximo*/
+  min(,)/*para poner el minimo */
+}
+                       /*selctores y otras cosas */
+/* conbinators */
+elemnto1 elemnto2 /* todos los 2 dentro del uno */
+elemnto1 > elemnto2 /* su hijo */
+elemnto1 + elemnto2/* todos los 2 que estan justo adelante de un 1 */
+elemnto1 ~ elemnto2/* todos los 2 que estan  adelante de un 1 */
+/* psdoclases */
+:link/* link sin visitar */
+:visited /* link visitado*/
+:hover /*mause hober link */
+:active/*cuando das click*/
+div:hover p /* hover div to see p */
+:first-child /* el primer hijo nc */
+p i:first-child /* el primer i de todos los p */
+p:first-child i /*  the selector matches all <i> elements in <p> elements that are the first child of another element:*/
+:lang(language)/*todos con ese lang */
+/* psdoelemets */
+::first-line/*primera linia de un texto */
+::first-letter/*la primera letra de un texto*/
+::before/* poner algo antes del elemento*/
+::after/* pone algo despues del elemento */
+::marker/* lo de las listas */
+::selection /*lo que seleciona el usurio */
+/*selectores de atributos*/
+elemnt[atributo]/* todos con ese atributo */
+elemnt[attribute="value"]/* todos con ese atibuto y valor*/
+[attribute~="value"]/*para selecionr todos con esa palabra*/
+[attribute|="value"]/* como el otro algo asi */
+[attribute^="value"] /* que enpieza con eso */
+[attribute$="value"]/* cuando termina */
+[attribute*="value"]/* que contiene  */
+/* selctores*/
+ * /* con eso selecionas todo */
+ elemnt
+ .class
+ #id
+ elemnt.class /* los elemntos con esa clase */
+ elemnt, elemnt /* para selecionar varios */
+
+/*poner unidades aca siesque es nesesario */
+                          /* avansado */
+/* contadores lo usas para crear un contador */
+  content /*	Used with the ::before and ::after pseudo-elements, to insert generated content*/
+  counter-increment /*	Increments one or more counter values*/
+  counter-reset /*	Creates or resets one or more counters */
+  counter() /*Returns the current value of the named counter */
+
+                       /* avansado */
+
+{
+/* */
+border-radius:; /*para redondear borde (top-left,top-right,bottom-right,bottom-left) */
+/*cuatro mas*/
+border-image:;/*para poner una imajen de borde (url,)*/
+/*sinco mas*/
+background-image:;/*para poner una imajen de fondo o mas */
+background-position: ;/*la pocision de la imagen (top,left,rhit,bootom)*/
+background-repeat: ;/*si se repite o no*/
+background-size:; /*el tamaño dela imajen del fondo*/
+background-origin:  ;/*el donde va la imagen */
+/*texto*/
+text-shadow: ;/*sombra en el texto*/
+
+text-overflow: ellipsis;/*lo pone asi... */
+  word-wrap: break-word;/*lo hace encajar con el resto del texto*/
+ word-break:  ;/*breac lo juanta todo y keep lo separa por sus espacios*/
+ writing-mode:;/*tecto vertical o orisontal*/
+
+transform: ;/*2d,3d  transforma el texto*/
+ /*
+ 2d
+ translate(x,y) lo mueve a otro lado
+ rotate(n°deg) lo hace girar (0.360)
+ scaleX(x)  canbia el width
+ scaleY(y)  canbia el height
+ scale(whith,height)  lo canbia a proporcion
+ skewX(deg)  mueve los boredes par un lado x
+ skewY(deg) mueve los boredes a un lado y
+ skew(x,y)
+ matrix(scaleX,skewY,skewX,scaleY,translateX,translateY)
+3d
+rotateX()
+rotateY()
+rotateZ()
+ */
+
+transition: ;/*(queslo q va canviar,el tiempo de cambio, timimg,delay)*/
+transition-timing-function: ;/*la veloscidad   */
+transition-delay: ;/* el tiempo de espera */
+transition-property: ;/*que va a canbiar*/
+transition-duration: ;/*el tiempo de canbio*/
+
+@keyframes keyframename {/*para crear la animacion*/
+0%{/* q canvia */} ... 100%{/* q canbia*/}
+}
+@keyframes keyframename {/*para crear la animacion*/
+  0%{/* q canvia */} ... 100%{/* q canbia*/}
+  }
+  
+{
+animation-name: keyframename ;/*nombre de la animacion*/
+animation-duration:n°s ;/*duracion de la animacion*/
+animation-delay: n°s;/*tiempo de espera*/
+animation-iteration-count:;/*cuantas veses se repite */
+animation-direction: ;/* oreden de la animacion*/
+animation-timing-function:;/* la veloscidad */
+animation-fill-mode:;/* ubicacion al incio y al final */
+animation:;/*(name,duracion,timing,delay,itineration,direction)*/
+}
+{
+   filter: ;/*para poner filtros*/
+
+   -webkit-box-reflect:;/*para crearle un reflejo*/
+   object-fit:;/*algo de imajenes y bideo */
+   object-position:;/*algo de imajenes y bideo x2*/
+   -webkit-mask-/*cosas*/:;/*tpc entiendo*/
+
+   column-gap: ;/*en cuantas colunas se va a dividir el texto*/
+  column-gap: ; /*la distancia que divide a los parrafos*/
+  column-rule-style: ;/*lo que separa a los parrafos*/
+  column-rule-width: ;/*el tamaño de lo que separa*/
+  column-rule-color: ;/*el color de lo que separa*/
+  column-rule: ;/*(whith,style,color)*/
+  column-span:;   /* nc noentiendo */
+  column-width: ;/* la medida de cada parrafo*/
+  box-sizing: ;/*para sacer el pading del width*/
+}
+/* flexbox */
+{
+
+}
+  /* grid */
+ {
+   display:grid;
+   grid-template-columns:;/*el tamaño de cada columna y cuantas columns*/
+   grid-template-rows:; /*el tamaño de cada fila y cuantas filas*/
+   grid-template-areas:'col1' 'col2';/* para poner cada fila */
+
+   grid-column:x / y ;/*enpieza,termina c */
+   grid-column-start: ;/*donde enpieza c*/
+   grid-column-end: ;/*donde termia c*/
+
+   grid-row: x / span y;/*enpiesa,cuantos ocupa */
+   grid-row-end: /*donde enpieza r*/
+   grid-row-start: ;/*donde termina r*/
+
+   grid-area: ;/* rowstar,colstart,rowend,colend*/
+
+   justify-content: ; /*para situar los cuadraditos*/
+   align-content: ;/*para siutar verticalmente*/
+
+   row-gap:;/* espasios entre rows */
+   column-gap:;/* espacios entre colums */
+   gap:;/* row-column */
+ }
+
+
+
+
+:root{
+  --varname:/*la variable*/;
+      cosa:var(--name, value);
+}
+@media not|only mediatype and (expressions/*max,min-width:px,orientation: landscape,portrait)*/ {
+  CSS-Code; /*all,print,screen,spech*/
+}
+
+
+:root {
+    --b1: #e6b8af;
+    --b2: #f4cccc;
+    --b3: #fce5cd;
+    --b4: #fff2cc;
+    --b5: #d9ead3;
+    --b6: #d0e0e3;
+    --b7: #c9daf8;
+    --b8: #cfe2f3;
+    --b9: #d9d2e9;
+    --b10: #ead1dc;
+    --c1: #dd7e6b;
+    --c2: #ea9999;
+    --c3: #f9cb9c;
+    --c4: #ffe599;
+    --c5: #b6d7a8;
+    --c6: #a2c4c9;
+    --c7: #a4c2f4;
+    --c8: #9fc5e8;
+    --c9: #b4a7d6;
+    --c10: #d5a6bd;
+    --d1: #cc4125;
+    --d2:#e06666;
+    --d3:#f6b26b;
+    --d4:#ffd966;
+    --d5:#93c47d;
+    --d6:#76a5af;
+    --d7:#6d9eeb;
+    --d8:#6fa8dc;
+    --d9:#8e7cc3;
+    --d10:#c27ba0;
+}

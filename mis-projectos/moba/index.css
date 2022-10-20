@@ -1,0 +1,63 @@
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns:33.33333333333333% 33.33333333333333% 33.33333333333333%;
+  grid-template-rows:33.33333333333333% 33.33333333333333% 33.33333333333333%;
+
+}
+.uno {
+  background-color: var(--c1);
+}
+.dos {
+  background-color: var(--c2);
+}
+.tres {
+  background-color: var(--c3);
+}
+.cuatro {
+  background-color: var(--c4);
+}
+.cinco {
+  background-color: var(--c5);
+}
+.seis {
+  background-color: var(--c6);
+}
+.ocho {
+  background-color: var(--c8);
+}
+.nueve {
+  background-color: var(--c9);
+}
+.diez{
+  background-color: var(--c10);
+}
+#circulo {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  background-color: white;
+  border-radius: 3009px;
+  transition-duration:3s ;
+transition-timing-function: linear;
+position: absolute;
+transition-property: transform ;
+}
+:root {
+    --c1: #dd7e6b;
+    --c2: #f4cccc;
+    --c3: #f9cb9c;
+    --c4: #ffe599;
+    --c5: #b6d7a8;
+    --c6: #a2c4c9;
+    --c7: #a4c2f4;
+    --c8: #9fc5e8;
+    --c9: #b4a7d6;
+    --c10: #d5a6bd;
+}

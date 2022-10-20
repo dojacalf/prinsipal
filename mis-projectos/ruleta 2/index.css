@@ -1,0 +1,239 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: sans-serif;
+}
+.r {
+    position: absolute;
+    padding-left: 5px;
+    padding-bottom: 122px;
+}
+
+.contenedor {
+    background-color: lime;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100% ;
+    grid-template-columns: 50% 50% ;
+}
+
+.tablero {
+    background-color: tomato;
+}
+
+.ruleta {
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    align-content: center ;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 9999px;
+    animation-name: ola ;
+    animation-duration: 10s ;
+    animation-iteration-count:1;
+    animation-timing-function:linear; 
+}
+@keyframes ola {
+    0%{
+        transform: rotate(0deg);
+    }  
+    100%{
+        transform: rotate(3600deg);
+    }
+    }
+.cuadrado {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+}
+
+.linea {
+    width: 2px;
+    height: 25px;
+    background-color: gold;
+}
+.centro {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius:10000px ;
+    background-color:rgb(129, 230, 120);
+    margin: 25px;
+    display: grid;
+    justify-content: center;
+    align-content: center ;
+}
+.marcador {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    animation-name: ola ;
+    animation-duration: 10s ;
+    animation-iteration-count:1;
+    animation-direction:reverse ;
+    animation-timing-function:linear; 
+}
+.lineamarca { 
+ width:5px;
+ height: 30px;
+ background-color: rgb(255, 0, 221);
+ margin-top: -20px;
+
+}
+
+.j1 {
+    transform: rotate(10deg);
+}
+
+.j2 {
+    transform: rotate(20deg);
+}
+
+.j3 {
+    transform: rotate(30deg);
+}
+
+.j4 {
+    transform: rotate(40deg);
+}
+
+.j5 {
+    transform: rotate(50deg);
+}
+
+.j6 {
+    transform: rotate(60deg);
+}
+
+.j7 {
+    transform: rotate(70deg);
+}
+
+.j8 {
+    transform: rotate(80deg);
+}
+
+.j9 {
+    transform: rotate(90deg);
+}
+
+.j10 {
+    transform: rotate(100deg);
+}
+
+.j11 {
+    transform: rotate(110deg);
+}
+
+.j12 {
+    transform: rotate(120deg);
+}
+
+.j13 {
+    transform: rotate(130deg);
+}
+
+.j14 {
+    transform: rotate(140deg);
+}
+
+.j15 {
+    transform: rotate(150deg);
+}
+
+.j16 {
+    transform: rotate(160deg);
+}
+
+.j17 {
+    transform: rotate(170deg);
+}
+
+.j18 {
+    transform: rotate(180deg);
+}
+
+.j19 {
+    transform: rotate(190deg);
+}
+
+.j20 {
+    transform: rotate(200deg);
+}
+
+.j21 {
+    transform: rotate(210deg);
+}
+
+.j22 {
+    transform: rotate(220deg);
+}
+
+.j23 {
+    transform: rotate(230deg);
+}
+
+.j24 {
+    transform: rotate(240deg);
+}
+
+.j25 {
+    transform: rotate(250deg);
+}
+
+.j26 {
+    transform: rotate(260deg);
+}
+
+.j27 {
+    transform: rotate(270deg);
+}
+
+.j28 {
+    transform: rotate(280deg);
+}
+
+.j29 {
+    transform: rotate(290deg);
+}
+
+.j30 {
+    transform: rotate(300deg);
+}
+
+.j31 {
+    transform: rotate(310deg);
+}
+
+.j32 {
+    transform: rotate(320deg);
+}
+
+.j33 {
+    transform: rotate(330deg);
+}
+
+.j34 {
+    transform: rotate(340deg);
+}
+
+.j35 {
+    transform: rotate(350deg);
+}
+
+.j36 {
+    transform: rotate(360deg);
+}

@@ -1,0 +1,196 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center ;
+  align-content:center ;
+}
+
+.circulo {
+  width: 300px;
+  height: 300px;
+  background-color: #756444;
+  border-radius: 600px;
+}
+.cuadrado {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+}
+.linea{
+  position: absolute;
+  height: 10px;
+  width: 3px;
+  background-color: #3131a0;
+}
+#segundo {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  animation-name: giros ;
+  animation-duration: 60s;/*60*/
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.95, -0.23, 0, 1.5);
+
+}
+#minuto {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  animation-name: giros ;
+  animation-duration: 3600s;/*3600*/
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+#hora {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  animation-name: giros ;
+  animation-duration: 43200s;/*43,200*/
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.lineahora {
+  top: 50px;
+  position: absolute;
+  height: 100px;
+  width: 10px;
+  background-color: white;
+  border-radius: 1000px;
+}
+.lineaminuto {
+  top: 20px;
+  position: absolute;
+  height: 130px;
+  width: 5px;
+  background-color: white;
+  border-radius: 1000px;
+}
+.lineasegundo {
+  top: 20px;
+  position: absolute;
+  height: 130px;
+  width: 3px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+@keyframes giros {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.uno{
+  transform: rotate(360deg);
+}
+.dos {
+  transform: rotate(30deg);
+}
+.tres{
+  transform: rotate(60deg);
+}
+.cuatro{
+  transform: rotate(90deg);
+}
+.cinco{
+  transform: rotate(120deg);
+}
+.seis{
+  transform: rotate(150deg);
+}
+.siete{
+  transform: rotate(180deg);
+}
+.ocho{
+  transform: rotate(210deg);
+}
+.nueve{
+  transform: rotate(240deg);
+}
+.diez{
+  transform: rotate(270deg);
+}
+.once{
+  transform: rotate(300deg);
+}
+.doce{
+  transform: rotate(330deg);
+}
+.auno {
+  width: 10px;
+  height: 10px;
+  transform: rotate(330deg);
+}
+.ados {
+  width: 10px;
+  height: 10px;
+  transform: rotate(300deg);
+}
+.atres {
+  width: 10px;
+  height: 10px;
+  transform: rotate(270deg);
+}
+.acuatro {
+  width: 10px;
+  height: 10px;
+  transform: rotate(240deg);
+}
+.acinco {
+  width: 10px;
+  height: 10px;
+  transform: rotate(210deg);
+}
+.aseis {
+  width: 10px;
+  height: 10px;
+  transform: rotate(180deg);
+}
+.asiete {
+  width: 10px;
+  height: 10px;
+  transform: rotate(150deg);
+}
+.aocho {
+  width: 10px;
+  height: 10px;
+  transform: rotate(120deg);
+}
+.anueve {
+  width: 10px;
+  height: 10px;
+  transform: rotate(90deg);
+}
+.adiez {
+  width: 10px;
+  height: 10px;
+  transform: rotate(60deg);
+}
+.aonce {
+  width: 10px;
+  height: 10px;
+  transform: rotate(30deg);
+}

@@ -1,0 +1,91 @@
+html {
+  padding: 151.833px 0;
+}
+.dado{
+  top: 500px;
+  display:grid;
+  grid-template-columns:100px 100px;
+  grid-template-rows:100px 100px 100px;
+  justify-content: center;
+
+}
+#uno {
+
+
+  grid-template-columns:15px;
+  grid-template-rows:15px;
+ background-color:var(--c6);
+ display: grid;
+ align-content: center;
+ justify-content: center;
+}
+.dos {
+  background-color: var(--c5);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns:15px;
+  grid-template-rows:15px 15px;
+  row-gap:15px;/* espasios entre rows */
+  column-gap:;/* espacios entre colums */
+}
+.tres {
+  background-color: var(--c4);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  row-gap:15px;
+  grid-template-columns:15px;
+  grid-template-rows:15px 15px 15px;
+}
+.cuatro {
+  background-color: var(--c3);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns:15px 15px;
+  grid-template-rows:15px 15px ;
+  row-gap:15px;/* espasios entre rows */
+  column-gap:15px;/* espacios entre colums */
+}
+.cinco {
+  background-color: var(--c2);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns:15px 15px 15px;
+  grid-template-rows:15px 15px;
+  row-gap:15px;/* espasios entre rows */
+  column-gap:15px;
+}
+.seis {
+  background-color: var(--c10);
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns:15px 15px 15px;
+  grid-template-rows:15px 15px ;
+  row-gap:15px;/* espasios entre rows */
+  column-gap:15px;
+}
+
+.punto {
+  background-color: white;
+  border-radius: 100px;
+}
+
+
+
+
+:root {
+  --c1: #dd7e6b;
+  --c2: #ea9999;
+  --c3: #f9cb9c;
+  --c4: #ffe599;
+  --c5: #b6d7a8;
+  --c6: #a2c4c9;
+  --c7: #a4c2f4;
+  --c8: #9fc5e8;
+  --c9: #8e7cc3;
+  --c10: #d5a6bd;
+}
