@@ -25,12 +25,9 @@ function carta_aletoria() {
 }
 
 // este mejor
+
 var numero = ['A', '2', '3', '4', '5', '6', '7', '8', '9','10','J','Q','K'];
 var palo = ['♠', '♣', '♦', '♥'];
-
-/*for (var i = 1; i < 14; i++) {
-    numero[i - 1] = i
-}*/
 
 var cartas_picas = [];
 var cartas_treboles = [];

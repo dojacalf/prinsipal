@@ -17,7 +17,12 @@
 //el juego de la ruleta
 //algo para mandar musica y  que se ponga en la lista de espera
 //ruleta
-
+//cuadrado magco
+//examen
+//teclado
+//tabla perodca
+//tenda onlne
+//examen
 
 
 
